@@ -127,194 +127,233 @@ code {
 }
 
 
-<nav id="navbar">
-  <header>
-    <h2>Desenvolvedor JS</h2>
-  </header>
-  <ul>
-    <li><a class="nav-link" href="#javascript">Javascript</a></li>
-    <li><a class="nav-link" href="#framework">Framework</a></li>
-    <li><a class="nav-link" href="#reactjs">ReactJs</a></li>
-    <li><a class="nav-link" href="#vuejs">VueJS</a></li>
-    <li><a class="nav-link" href="#angular">Angular</a></li>
-    <li><a class="nav-link" href="#mobile">Mobile</a></li>
-    <li><a class="nav-link" href="#reference">Reference</a></li>
-  </ul>
-</nav>
-<main id="main-doc">
-  <section class="main-section" id="javascript">
-    <header>
-      <h2>Javascript</h2>
-    </header>
-    <hr />
-    <article>
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integridade = "sha384-Gn5384xqQ1aoWXA + 058RXPxPg6fy4IWvTNh0E263XmFcJlSAin" >
+    <link rel="sylesheet" type="text/css" href="style.css">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <title>Documentation Page</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>
+        <h2>Developer Python</h2>
+      </header>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li><a class="nav-link" href="#python">Python</a></li>
+        <li><a class="nav-link" href="#framework">Framework</a></li>
+        <li><a class="nav-link" href="#aiohttp">AIOHTTP</a></li>
+        <li><a class="nav-link" href="#django">Django</a></li>
+        <li><a class="nav-link" href="#flask">Flask</a></li>
+        <li><a class="nav-link" href="#pyramid">Pyramid</a></li>
+        <li><a class="nav-link" href="#dash">Dash</a></li
+        <li><a class="nav-link" href="#reference">Reference</a></li>
       </ul>
-      <p>01. </p>
-      <p>02. </p>
-      <p>03. </p>
-      <p>04. </p>
-      <p>05. </p>
-      <code></code>
-      <p>06. </p>
-      <code></code>
-      <p>07. </p>
-      <code></code>
-      <p>08. </p>
-      <code></code>
-      <p>09. </p>
-      <code></code>
-      <p>10. </p>
-      <code></code>
-    </article>
-  </section>
-  <section class="main-section" id="framework">
-    <header>
-      <h2>Framework</h2>
-    </header>
-    <hr />
-    <article>
-      <p>01. </p>
-      <p>02. </p>
-      <p>03. </p>
-      <p>04. </p>
-      <p>05. </p>
-      <code></code>
-      <p>06. </p>
-      <code></code>
-      <p>07. </p>
-      <code></code>
-      <p>08. </p>
-      <code></code>
-      <p>09. </p>
-      <code></code>
-      <p>10. </p>
-      <code></code>
-    </article>
-  </section>
-  <section class="main-section" id="reactjs">
-    <header>
-      <h2>ReactJs</h2>
-    </header>
-    <hr />
-    <article>
-      <p>01. </p>
-      <p>02. </p>
-      <p>03. </p>
-      <p>04. </p>
-      <p>05. </p>
-      <code></code>
-      <p>06. </p>
-      <code></code>
-      <p>07. </p>
-      <code></code>
-      <p>08. </p>
-      <code></code>
-      <p>09. </p>
-      <code></code>
-      <p>10. </p>
-      <code></code>
-    </article>
-  </section>
-  <section class="main-section" id="vuejs">
-    <header>
-      <h2>VueJS</h2>
-    </header>
-    <hr />
-    <article>
-      <p>01. </p>
-      <p>02. </p>
-      <p>03. </p>
-      <p>04. </p>
-      <p>05. </p>
-      <code></code>
-      <p>06. </p>
-      <code></code>
-      <p>07. </p>
-      <code></code>
-      <p>08. </p>
-      <code></code>
-      <p>09. </p>
-      <code></code>
-      <p>10. </p>
-      <code></code>
-    </article>
-  </section>
-  <section class="main-section" id="angular">
-    <header>
-      <h2>Angular</h2>
-    </header>
-    <hr />
-    <article>
-      <p>01. </p>
-      <p>02. </p>
-      <p>03. </p>
-      <p>04. </p>
-      <p>05. </p>
-      <code></code>
-      <p>06. </p>
-      <code></code>
-      <p>07. </p>
-      <code></code>
-      <p>08. </p>
-      <code></code>
-      <p>09. </p>
-      <code></code>
-      <p>10. </p>
-      <code></code>
-    </article>
-  </section>
-  <section class="main-section" id="mobile">
-    <header>
-      <h2>Mobile</h2>
-    </header>
-    <hr />
-    <article>
-      <p>01. </p>
-      <p>02. </p>
-      <p>03. </p>
-      <p>04. </p>
-      <p>05. </p>
-      <code></code>
-      <p>06. </p>
-      <code></code>
-      <p>07. </p>
-      <code></code>
-      <p>08. </p>
-      <code></code>
-      <p>09. </p>
-      <code></code>
-      <p>10. </p>
-      <code></code>
-    </article>
-  </section>
-  <section class="main-section" id="reference">
-    <header>
-      <h2>Reference</h2>
-    </header>
-    <hr />
-    <article>
-      <p>01. </p>
-      <p>02. </p>
-      <p>03. </p>
-      <p>04. </p>
-      <p>05. </p>
-      <code></code>
-      <p>06. </p>
-      <code></code>
-      <p>07. </p>
-      <code></code>
-      <p>08. </p>
-      <code></code>
-      <p>09. </p>
-      <code></code>
-      <p>10. </p>
-      <code></code>
-    </article>
-  </section>
-</main>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="python">
+        <header>
+          <h2>Python</h2>
+        </header>
+        <hr />
+        <article>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <p>01. </p>
+          <p>02. </p>
+          <p>03. </p>
+          <p>04. </p>
+          <p>05. </p>
+          <code></code>
+          <p>06. </p>
+          <code></code>
+          <p>07. </p>
+          <code></code>
+          <p>08. </p>
+          <code></code>
+          <p>09. </p>
+          <code></code>
+          <p>10. </p>
+          <code></code>
+        </article>
+      </section>
+      <section class="main-section" id="framework">
+        <header>
+          <h2>Framework</h2>
+        </header>
+        <hr />
+        <article>
+          <p>01. </p>
+          <p>02. </p>
+          <p>03. </p>
+          <p>04. </p>
+          <p>05. </p>
+          <code></code>
+          <p>06. </p>
+          <code></code>
+          <p>07. </p>
+          <code></code>
+          <p>08. </p>
+          <code></code>
+          <p>09. </p>
+          <code></code>
+          <p>10. </p>
+          <code></code>
+        </article>
+      </section>
+      <section class="main-section" id="aiohttp">
+        <header>
+          <h2>AIOHTTP</h2>
+        </header>
+        <hr />
+        <article>
+          <p>01. </p>
+          <p>02. </p>
+          <p>03. </p>
+          <p>04. </p>
+          <p>05. </p>
+          <code></code>
+          <p>06. </p>
+          <code></code>
+          <p>07. </p>
+          <code></code>
+          <p>08. </p>
+          <code></code>
+          <p>09. </p>
+          <code></code>
+          <p>10. </p>
+          <code></code>
+        </article>
+      </section>
+      <section class="main-section" id="django">
+        <header>
+          <h2>Django</h2>
+        </header>
+        <hr />
+        <article>
+          <p>01. </p>
+          <p>02. </p>
+          <p>03. </p>
+          <p>04. </p>
+          <p>05. </p>
+          <code></code>
+          <p>06. </p>
+          <code></code>
+          <p>07. </p>
+          <code></code>
+          <p>08. </p>
+          <code></code>
+          <p>09. </p>
+          <code></code>
+          <p>10. </p>
+          <code></code>
+        </article>
+      </section>
+      <section class="main-section" id="flask">
+        <header>
+          <h2>Flask</h2>
+        </header>
+        <hr />
+        <article>
+          <p>01. </p>
+          <p>02. </p>
+          <p>03. </p>
+          <p>04. </p>
+          <p>05. </p>
+          <code></code>
+          <p>06. </p>
+          <code></code>
+          <p>07. </p>
+          <code></code>
+          <p>08. </p>
+          <code></code>
+          <p>09. </p>
+          <code></code>
+          <p>10. </p>
+          <code></code>
+        </article>
+      </section>
+      <section class="main-section" id="pyramid">
+        <header>
+          <h2>Pyramid</h2>
+        </header>
+        <hr />
+        <article>
+          <p>01. </p>
+          <p>02. </p>
+          <p>03. </p>
+          <p>04. </p>
+          <p>05. </p>
+          <code></code>
+          <p>06. </p>
+          <code></code>
+          <p>07. </p>
+          <code></code>
+          <p>08. </p>
+          <code></code>
+          <p>09. </p>
+          <code></code>
+          <p>10. </p>
+          <code></code>
+        </article>
+      </section>
+      <section class="main-section" id="dash">
+        <header>
+          <h2>Dash</h2>
+        </header>
+        <hr />
+        <article>
+          <p>01. </p>
+          <p>02. </p>
+          <p>03. </p>
+          <p>04. </p>
+          <p>05. </p>
+          <code></code>
+          <p>06. </p>
+          <code></code>
+          <p>07. </p>
+          <code></code>
+          <p>08. </p>
+          <code></code>
+          <p>09. </p>
+          <code></code>
+          <p>10. </p>
+          <code></code>
+        </article>
+      </section>
+      <section class="main-section" id="reference">
+        <header>
+          <h2>Reference</h2>
+        </header>
+        <hr />
+        <article>
+          <p>01. </p>
+          <p>02. </p>
+          <p>03. </p>
+          <p>04. </p>
+          <p>05. </p>
+          <code></code>
+          <p>06. </p>
+          <code></code>
+          <p>07. </p>
+          <code></code>
+          <p>08. </p>
+          <code></code>
+          <p>09. </p>
+          <code></code>
+          <p>10. </p>
+          <code></code>
+        </article>
+      </section>
+    </main>
+
+  </body>
+</html>
+
