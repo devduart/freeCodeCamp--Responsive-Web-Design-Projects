@@ -1,0 +1,155 @@
+@media all and (min-width: 600px) {
+  #home {
+    display: flex;
+  }
+  #email {
+    width: 100%;
+  }
+}
+<<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integridade = "sha384-Gn5384xqQ1aoWXA + 058RXPxPg6fy4IWvTNh0E263XmFcJlSAin" >
+    <link rel="sylesheet" type="text/css" href="style.css">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <title>Bass Guitar</title>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <!-- Header -->
+      <header id="header">
+        <nav id="nav-bar" class="navbar navbar-dark bg-dark shadow-sm fixed-top">
+          <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+              <img id="header-img" src="https://cdn2.iconfinder.com/data/icons/flat-vegetables/32/vegetables_flat_7-32.png" alt="bass Guitar Logo" /> <strong>Bass Guitar</strong><strong>Bass Guitar</strong>
+            </a>
+            <div class="d-flex">
+              <a href="#about" class="nav-link text-white">Presentation</a>
+              <a href="#description" class="nav-link text-white">Description</a>
+              <a href="#value" class="nav-link text-white">Value</a>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- Section about -->
+      <section id="about">
+        <div class="p-5 text-center">
+          <h1 class="display-4">Bass Guitar</h1>
+          <p class="lead">Our commitment is to take it to our customers; High quality bass. Here you subscribe to receive information and prices to enrich your knowledge about our product.</p>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe id="video" height="315" src="https://www.youtube.com/embed/daYfQ1Ipf1k" allow="autoplay; encrypted-media"  frameborder="0" allowfullscreen></iframe>
+          </div>
+          <hr />
+        </div>
+      </section>
+      <!-- Section description -->
+      <section id="description" class="bg-warning p-5">
+        <div class="p-5 text-center">
+          <h1 class="display-4">Description</h1>
+        </div>
+
+        <div class="container">
+          <div class="row p-5">
+            <div class="col-md-7">
+              <h2>HERITAGE-3 Preamp <span class="text-muted"><br>[CORE TECHNOLOGY FOR EXCELLENT SOUND]</span></h2>
+              <p class="lead">SIRE’s unique preamp system is a perfect example that represents our technology and philosophy that is integrated into our instruments.With multiple tone controls, players have total command to achieve the perfect tone they desire. The use of 18v batteries enables the player to attain unaltered natural sounds with strong and powerful outputs. With the 3-band EQ, players are able to carry out versatility in sounds that will be suited for all music sessions and performances.   All models are built with the option of both active and passive modes. Even in the passive mode, the volume, tone, and pickup balancer are fully functional, giving the players more control of the tone in any  mode.</p>
+            </div>
+            <div class="col-md-5">
+              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+                <rect width="100%" height="100%" fill="#eee" />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="row p-5">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">ROLLED FRETBOARD EDGES<br><span class="text-muted">[TRUE CUSTOM SHOP FEATURE]</span></h2>
+            <p class="lead"> We have taken the overall playability to the next level with the ROLLED FRETBOARD EDGES.What only custom shops can achieve, is now available in the Sire 2nd Gen series. These rounded edges will give players a firmer and more natural grasp, compared to the typical fretboards.We were well aware of the difficulties we would face in our ambition to apply the rolled fretboard edges in a mass production factory. Together with the production team, we worked tirelessly to make this theory a reality.This was quite a challenge, almost an impossible mission.We tried making several adjustments to the production process and even introduced a new machine. Since our Sire basses also have bindings, this made it exceptionally challenging, way beyond our imaginations. But eventually, we found the answers and we are ecstatic to present the Rolled Fretboard Edges in all our 2nd Generation models. </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+              <rect width="100%" height="100%" fill="#eee" />
+            </svg>
+          </div>
+        </div>
+
+      </section>
+      <!-- Section Value -->
+      <section id="value">
+        <div class="p-5 text-center">
+          <h1 class="display-4">Value</h1>
+        </div>
+        <div class="container">
+          <div class="card-deck mb-3 text-center">
+            <div class="card mb-4 shadow-sm">
+              <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Standard  Bass</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">USS$500</h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>1 Bass V5</li>
+                  <li>1 Cable 3M</li>
+                  <li><small class="text-danger">*Standard  Bass</small></li>
+                </ul>
+                <button type="button" class="btn btn-lg btn-block btn-outline-primary">Purchase</button>
+              </div>
+            </div>
+            <div class="card mb-4 shadow-sm">
+              <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Intermediate Bass</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">USS$1500</h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>1 Bass V5</li>
+                  <li>1 Gigbag</li>
+                  <li>1 Cable 5M</li>
+                  <li><small class="text-danger">*Intermediate Bass</small></li>
+                </ul>
+                <button type="button" class="btn btn-lg btn-block btn-primary">See details</button>
+              </div>
+            </div>
+            <div class="card mb-4 shadow-sm">
+              <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Advanced Bass</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">USS$3000</h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>1 Bass V10</li>
+                  <li>1 Gigbag</li>
+                  <li>1 Amplifier</li>
+                  <li><small class="text-danger">*Advanced Bass</small></li>
+                </ul>
+                <button type="button" class="btn btn-lg btn-block btn-primary">See details</button>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section id="home" class="jumbotron text-center">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <div class="container">
+            <div class="row justify-content-center pt-5">
+              <h3>Receive our catalog of highly selected products weekly.</h3>
+              <br />
+            </div>
+            <div class="row justify-content-center">
+              <p class="col-sm-6"><input type="email" id="email" name="email" class="form-control" placeholder="Enter your email..." required /></p>
+            </div>
+            <p>
+              <input id="submit" type="submit" class="btn btn-primary my-2" value="I want to receive"></input>
+            </p>
+          </div>
+        </form>
+      </section>
+    </div>
+  </body>
+  <footer class="container">
+    <p>&copy; 2020 BassGuittar &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+      &middot; <a href="#">Contact</a>
+    </p>
+  </footer>
+</html>
